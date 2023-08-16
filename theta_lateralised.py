@@ -22,10 +22,6 @@ import mne
 datapath =[
     r'C:\newdata'
               ]
-
-
-
-
 subjects_to_do = np.arange(0, len(datapath))
 for sub in subjects_to_do:
     data_path = datapath[sub]
